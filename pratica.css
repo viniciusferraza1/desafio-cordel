@@ -2,18 +2,30 @@
 
 * {padding: 0px; margin: 0px;}
 
-#header {background-color: darkgreen;
-height: 120px;}
+body {background-color: #F5F5F5;}
 
-#header > h1 {color: white; padding-top: 20px; padding-left: 20px;}
+header {background-color: white; display: flex;
+height: 60px;
+box-shadow: 1px 1px 1px rgb(197, 197, 197);}
 
-#header > p {color: white; padding-left: 20px;}
+img#logo {padding: 15px;
+padding-left: 40px;}
 
-.scrollbar {background-color: rgb(250, 228, 29); height: 40px;}
+img#login {padding: 18px; padding-left: 450px;}
 
-li > a {background-color: crimson; height: 46px; width: 20px;
-    padding: 10px; margin-left: 3px; text-decoration: none;}
+ul#top-menu {padding: 15px; display: flex; padding-top: 22px;
+margin-left: 10px; list-style-type: none;}
 
-ul {display: flex; list-style: none; padding: 12px; padding-left: 900px;}
+li > a {text-decoration: none; padding: 15px; font-size: 16px; color: black; font-weight: bolder; font-family: Arial, Helvetica, sans-serif;}
+
+.super-container {display: flex;}
+
+.main-container {padding-top: 100px; padding-left: 50px;}
+
+.main-container > h1 {font-size: 24px; color: black; font-weight: bolder; font-family: Arial, Helvetica, sans-serif;}
+
+.main-container > p {padding-top: 25px; font-size: 48px; color: black; font-weight: bolder; font-family: Arial, Helvetica, sans-serif;}
+
+.cartao {padding: 100px;}
 
 
